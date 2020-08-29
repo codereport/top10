@@ -1,3 +1,5 @@
+⍝ Problem Statement: https://leetcode.com/problems/trapping-rain-water/
+
 ⍝ More verbose but more readable solution
 rainWater ← {
    ls ← ⌈\⍵
