@@ -1,3 +1,5 @@
+// Problem Statement: https://leetcode.com/problems/trapping-rain-water/
+
 // Solution 1 (bad) from: https://github.com/codereport/Talks/blob/master/2019-05-CppNow/AlgorithmIntuition/Slide-137.cpp
 
 auto solve() { 
