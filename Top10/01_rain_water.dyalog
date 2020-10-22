@@ -16,3 +16,12 @@ rainWater      ← (maxLeftScan min maxRightScan) sumDifferences ⊢ ⍝ Fork (S
 
 ⍝ Tacit (Point-Free) Solution
 rainWater ← (⌈\⌊(⌽⌈\∘⌽))+.-⊢
+
+⍝ Other solutions from APL Orchard
++/x-⍨(⌈\⌊{⌽⌈\⌽⍵})x ⍝ originally posted from me https://chat.stackexchange.com/transcript/message/55904570#55904570
++/x-⍨(⌽⌈\∘⌽⌊∘⌽⌈\)x ⍝ Marshall 
++/(⌽⌽-⍨⌈\∘⌽⌊∘⌽⌈\)x ⍝ Marshall 
+(+/⌽-⍨⌈\∘⌽⌊∘⌽⌈\)x  ⍝ Marshall 
+(+/⊢-⍨⌈\⌊∘⌽⌈\∘⌽)x  ⍝ Bubbler
+{+/⍵-⍨(⌈\⍵)⌊⌽⌈\⌽⍵} ⍝ rak1507 
+⊢+.-⍨⌈\⌊(⌽⌈\∘⌽)    ⍝ rak1507 (from me posting my tacit solution above)
