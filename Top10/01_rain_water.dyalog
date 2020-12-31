@@ -25,3 +25,15 @@ rainWater ← (⌈\⌊(⌽⌈\∘⌽))+.-⊢
 (+/⊢-⍨⌈\⌊∘⌽⌈\∘⌽)x  ⍝ Bubbler
 {+/⍵-⍨(⌈\⍵)⌊⌽⌈\⌽⍵} ⍝ rak1507 
 ⊢+.-⍨⌈\⌊(⌽⌈\∘⌽)    ⍝ rak1507 (from me posting my tacit solution above)
+
+⍝ Alternatives from Dec 31, 2020
+
+⍝ Similar to first but using commute (C-combinator)
+rainWater ← {
+   l ← ⌈\⍵   ⍝ left  max scan
+   r ← ⌽⌈\⌽⍵ ⍝ right max scan
+   ⍵+.-⍨l⌊r
+}
+
+⍝ One-liner using ⋄ (statement separator)
+rainWater ← {l←⌈\⍵ ⋄ r←⌽⌈\⌽⍵ ⋄ ⍵+.-⍨l⌊r}
