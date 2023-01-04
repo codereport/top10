@@ -4,7 +4,7 @@
 2. [Max Consecutive Ones (MCO)](https://leetcode.com/problems/max-consecutive-ones/)
    * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0485_MCO.md)
 3. [Longest Continuous Increasing Subsequence (LCIS)](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
-   * Link to Array Language Solutions
+   * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)
 4. [Maximum Subarray Sum (Kadanes)](https://leetcode.com/problems/maximum-subarray/)
 5. [Sushi for Two (SF2)](https://codeforces.com/contest/1138/problem/A)
 
