@@ -15,7 +15,7 @@
 |   1   | Rain Water |                       `reduce`, `map2`, `scan`                        |    `phi`, `under`    |
 |   2   |    MCO     |        1) `reduce`, `scan` <br> 2) `reduce`, `map`, `chunkBy`         | 1) `phi1` <br> 2) -  |
 |   3   |    LCIS    | 1) `reduce`, `scan`, `mapAdjacent` <br> 2) `reduce`, `map`, `chunkBy` | 1) `phi1` <br> 2) -  |
-|   4   |  Kadanes   |                           `reduce`, `scan`,                            |        `phi1`        |
+|   4   |  Kadanes   |                           `reduce`, `scan`                            |        `phi1`        |
 |   5   |    SF2     |               `reduce`, `mapAdjacent`, `map`, `chunkBy`               |          -           |
 
 ### Solutions
