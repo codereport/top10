@@ -13,7 +13,7 @@
 |    BQN    | :star::heavy_check_mark: | :star::heavy_check_mark: |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    |
 |  Haskell  |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    | :star::heavy_check_mark: |
 |    C++    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |    :heavy_check_mark:    |
-|    APL    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |
+|    APL    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |    :heavy_check_mark:    |
 |     J     |                          |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |
 |  Clojure  |                          |    :heavy_check_mark:    |                          |                          |    :heavy_check_mark:    |
 | Smalltalk |                          |    :heavy_check_mark:    |                          |                          |                          |

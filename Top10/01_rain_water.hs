@@ -1,6 +1,7 @@
 -- Problem Link: https://leetcode.com/problems/trapping-rain-water/
 
 -- Solution 1
+-- Covered in Better Algorithm Intuition: https://youtu.be/TSZzvo4htTQ?t=2207
 trappingRain xs = sum $ zipWith (-) ys xs
     where m      = maximum xs
           i      = length $ takeWhile (/=m) xs
