@@ -8,6 +8,18 @@
 4. [Maximum Subarray Sum (Kadanes)](https://leetcode.com/problems/maximum-subarray/)
 5. [Sushi for Two (SF2)](https://codeforces.com/contest/1138/problem/A)
 
+### Algorithm & Combinators Required
+
+|       |  Problem   |                          Algorithms Required                          | Combinators Required |
+| :---: | :--------: | :-------------------------------------------------------------------: | :------------------: |
+|   1   | Rain Water |                       `reduce`, `map2`, `scan`                        |    `phi`, `under`    |
+|   2   |    MCO     |        1) `reduce`, `scan` <br> 2) `reduce`, `map`, `chunkBy`         | 1) `phi1` <br> 2) -  |
+|   3   |    LCIS    | 1) `reduce`, `scan`, `mapAdjacent` <br> 2) `reduce`, `map`, `chunkBy` | 1) `phi1` <br> 2) -  |
+|   4   |  Kadanes   |                           `reduce`, `scan`,                            |        `phi1`        |
+|   5   |    SF2     |               `reduce`, `mapAdjacent`, `map`, `chunkBy`               |          -           |
+
+### Solutions
+
 | Language  |            1             |            2             |            3             |            4             |            5             |
 | :-------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
 |    BQN    | :star::heavy_check_mark: | :star::heavy_check_mark: |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    |
