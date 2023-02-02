@@ -22,7 +22,7 @@
 |   4   |    Kadanes    |                           `reduce`, `scan`                            |        `phi1`        |
 |   5   |      SF2      |               `reduce`, `mapAdjacent`, `map`, `chunkBy`               |          -           |
 |   6   |    Max Gap    |                    `sort`, `mapAdjacent`, `reduce`                    |          -           |
-|   7   | Max Gap Count |      1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce` | 1) `sigma` or `s` <br> -|
+|   7   | Max Gap Count |      1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce` | 1) `sigma` or `s` <br> 2) -|
 
 \* - Rank Polymorphism
 
