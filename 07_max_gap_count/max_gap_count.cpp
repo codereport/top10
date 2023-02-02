@@ -1,4 +1,4 @@
-// Godbolt: https://godbolt.org/z/oj15revYM
+// Godbolt: https://godbolt.org/z/5vP6nPhMa
 
 auto max_gap_count(std::vector<int> nums) {
     std::ranges::sort(nums, std::greater{});
