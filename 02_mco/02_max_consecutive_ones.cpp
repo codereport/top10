@@ -7,3 +7,22 @@ auto mco(std::vector<int> lst) {
         | filter([](auto r) { return *r.begin() == 1; })
         | transform(std::ranges::distance));
 }
+
+// Two Op Fold
+auto two_op_fold(auto rng, auto init, auto op1, auto op2) {
+    auto res = init;
+    for (auto e : rng) {
+        auto first = op1(res.first, e);
+        auto second = op2(first, res.second);
+        res = std::pair{first, second};
+    }
+    return res.second;
+}
+
+auto mco(std::vector<int> vec) {
+    return two_op_fold(
+        vec, 
+        std::pair{0, 0}, 
+        [](auto a, auto b) { return b * (a + b); }, 
+        [](auto a, auto b) { return std::max(a, b); }); 
+}
