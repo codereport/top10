@@ -1,4 +1,4 @@
-Problem Link: https://codeforces.com/contest/1138/problem/A
+NB. Problem Link: https://codeforces.com/contest/1138/problem/A
 
 sushiForTwo =: {{>./ +: 2 <./\ y #;.1~ 1,2~:/\y}}
 
