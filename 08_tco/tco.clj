@@ -1,4 +1,4 @@
-; JDoodle: 
+; JDoodle: jdoodle.com/ia/DOh
 
 (defn three-odds [nums]
     (->> nums

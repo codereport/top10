@@ -11,7 +11,7 @@
    * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0064_Max_Gap.md)
 7. [Maximum Gap Count](https://theweeklychallenge.org/blog/perl-weekly-challenge-198/)
    * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/pwc/PWC198_P1_Max_Gap_Count.md)
-8. [Three Consecutive Odds]()
+8. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
 
 
 ### Algorithm & Combinators Required
