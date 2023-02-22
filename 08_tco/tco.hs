@@ -12,14 +12,12 @@ threeOdds = or
 
 threeOdds = any (all odd) . divvy 3 1
 
-threeOdds = (>=3) 
-          . maximum 
+threeOdds = any (>=3) 
           . map sum 
           . group 
           . map (fromEnum . odd)
 
-threeOdds = (>=3) 
-          . maximum 
+threeOdds = any (>=3) 
           . scanl1 (\a b -> b * (a + b)) 
           . map (fromEnum . odd)
 
@@ -30,8 +28,7 @@ c  = flip
 ki = c i
 phi1 a b c x y = a (b x y) (c x y)
 
-threeOdds = (>=3) 
-          . maximum 
+threeOdds = any (>=3) 
           . scanl1 (phi1 (*) ki (+)) 
           . map (fromEnum . odd)
 
