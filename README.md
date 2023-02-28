@@ -8,7 +8,7 @@
    * Covered in [ADSP Episode 20: GTC 2021 Preview & Thrust Algorithms](https://adspthepodcast.com/2021/04/09/Episode-20.html)
    * Covered in [ADSP Episode 25: The Lost Reduction](https://adspthepodcast.com/2021/05/14/Episode-25.html)
 3. [Longest Continuous Increasing Subsequence (LCIS)](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
-   * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P00674_LCIS.md)
+   * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/leetcode/P0674_LCIS.md)
 4. [Maximum Subarray Sum (Kadanes)](https://leetcode.com/problems/maximum-subarray/)
 5. [Sushi for Two (SF2)](https://codeforces.com/contest/1138/problem/A)
 6. [Maximum Gap](https://leetcode.com/problems/maximum-gap/)
