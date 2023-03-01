@@ -2,7 +2,7 @@
 
 ```q
 / Helper functions:
-chunk: {(where differ x) cut x}
+chunk: { (where differ x) cut x }
 ```
 
 |       |    Problem    |                                                    Solution                                                    |
