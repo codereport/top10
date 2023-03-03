@@ -1,3 +1,12 @@
+### Specifics of Languages
+
+| Lang  |                            Source / Version                             |
+| :---: | :---------------------------------------------------------------------: |
+|  APL  |                             Dyalog APL 18.2                             |
+|  BQN  | [CBQN](https://github.com/dzaima/CBQN) built with `make CC=cc REPLXX=1` |
+|   J   |                                  J9.4                                   |
+|   Q   |               KDB+ 4.0 2022.10.26 run with `taskset -c 2`               |
+
 ### Profiling (Sort + Deltas + Max)
 
 | Lang  |                      Command                       |
