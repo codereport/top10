@@ -18,6 +18,7 @@
    * Link to [Array Language Solutions](https://github.com/codereport/array-language-comparisons/blob/main/comparisons/pwc/PWC198_P1_Max_Gap_Count.md)
    * Covered in [ADSP Episode 116: Max Gap Count in C++23](https://adspthepodcast.com/2023/02/10/Episode-116.html)
 8. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
+   * Covered in [ADSP Episode 119: Why APL & Haskell are AWESOME with Zach Laine! (Part 3)](https://adspthepodcast.com/2023/03/03/Episode-119.html)
 
 
 ### Algorithm & Combinators Required
