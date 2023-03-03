@@ -35,3 +35,5 @@
 |  BQN  | 0.076959788 | 0.1051217381 |
 |   J   |  0.145835   |   0.187187   |
 |   Q   |    .2017    |    .3282     |
+
+![image](https://user-images.githubusercontent.com/36027403/222620381-5d8470d6-932d-4df3-b5f3-d8aa636ee8d6.png)
