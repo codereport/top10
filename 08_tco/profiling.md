@@ -1,11 +1,11 @@
 ### Specifics of Languages
 
-| Lang  |                            Source / Version                             |
-| :---: | :---------------------------------------------------------------------: |
-|  APL  |                             Dyalog APL 18.2                             |
-|  BQN  | [CBQN](https://github.com/dzaima/CBQN) built with `make CC=cc REPLXX=1` |
-|   J   |                                  J9.4                                   |
-|   Q   |               KDB+ 4.0 2022.10.26 run with `taskset -c 2`               |
+| Lang  |                                  Source / Version                                   |
+| :---: | :---------------------------------------------------------------------------------: |
+|  APL  |                                   Dyalog APL 18.2                                   |
+|  BQN  | [CBQN](https://github.com/dzaima/CBQN) built with `make o3n-singeli CC=cc REPLXX=1` |
+|   J   |                                        J9.4                                         |
+|   Q   |                     KDB+ 4.0 2022.10.26 run with `taskset -c 2`                     |
 
 ### Profiling (Sort + Deltas + Max)
 
@@ -20,10 +20,10 @@
 
 | Lang  |     Sort     | Sort + Deltas |     Full     | Full + Rand |
 | :---: | :----------: | :-----------: | :----------: | :---------: |
-| BQN 2 | 0.1140818972 | 0.1243776565  | 0.1265426332 |      -      |
+| BQN 2 | 0.1058985824 | 0.1059849112  | 0.1100821086 |      -      |
 |   J   |   0.120776   |   0.135354    |   0.139736   |  0.213386   |
 | APL 2 |    .1437     |     .1453     |    .1515     |
-| BQN 1 | 0.1187085173 | 0.3074245099  | 0.3100722386 |      -      |
+| BQN 1 | 0.1017272612 | 0.3206097638  | 0.3267318615 |      -      |
 |  APL  |     .389     |     .3906     |    0.3954    |   0.5625    |
 |   Q   |     .52      |    0.5593     |    0.5776    |   0.6821    |
 
@@ -38,11 +38,11 @@
 |  APL  |     `]runtime -repeat=10 '{⌈/2-/⍵} 1e8?1e8'`     |
 |   Q   |  `\ts:10 { max 1 _ deltas x } (7h$1e8)?7h$1e8`   |
 
-| Lang  |   Deltas    | Deltas + Max |
-| :---: | :---------: | :----------: |
-|  APL  |   0.0343    |    0.0547    |
-|  BQN  | 0.076959788 | 0.1051217381 |
-|   J   |  0.145835   |   0.187187   |
-|   Q   |    .2017    |    .3282     |
+| Lang  |    Deltas    | Deltas + Max |
+| :---: | :----------: | :----------: |
+|  APL  |    0.0343    |    0.0547    |
+|  BQN  | 0.0531495085 | 0.0317558118 |
+|   J   |   0.145835   |   0.187187   |
+|   Q   |    .2017     |    .3282     |
 
 ![image](https://user-images.githubusercontent.com/36027403/222620381-5d8470d6-932d-4df3-b5f3-d8aa636ee8d6.png)
