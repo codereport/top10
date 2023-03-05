@@ -27,7 +27,7 @@
 |  APL  |     .389     |     .3906     |    0.3954    |   0.5625    |
 |   Q   |     .52      |    0.5593     |    0.5776    |   0.6821    |
 
-![image](https://user-images.githubusercontent.com/36027403/222619999-7088af3d-7f54-4861-82e3-86bc401f1c73.png)
+![image](https://user-images.githubusercontent.com/36027403/222936134-f9c921a6-57f4-4805-88ef-05b2af08af71.png)
 
 ### Profiling (Deltas + Max)
 
@@ -45,4 +45,4 @@
 |   J   |   0.145835   |   0.187187   |
 |   Q   |    .2017     |    .3282     |
 
-![image](https://user-images.githubusercontent.com/36027403/222620381-5d8470d6-932d-4df3-b5f3-d8aa636ee8d6.png)
+![image](https://user-images.githubusercontent.com/36027403/222936128-3689a5fc-64b6-4698-ab55-cfd35cfe8ef7.png)
