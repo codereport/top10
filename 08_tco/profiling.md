@@ -27,7 +27,7 @@
 |  APL  |     .389     |    .3906     |    0.3954    |  0.5625   |
 |   Q   |     .52      |    0.5593    |    0.5776    |  0.6821   |
 
-![image](https://user-images.githubusercontent.com/36027403/222619999-7088af3d-7f54-4861-82e3-86bc401f1c73.png)
+![image](https://user-images.githubusercontent.com/36027403/222937621-322beb15-fbd3-4f58-b76d-09abb1d0d89c.png)
 
 ###Profiling(Deltas+Max)
 
@@ -45,7 +45,7 @@
 |   J   |   0.145835   |   0.187187   |
 |   Q   |    .2017     |    .3282     |
 
-![image](https://user-images.githubusercontent.com/36027403/222620381-5d8470d6-932d-4df3-b5f3-d8aa636ee8d6.png)
+![image](https://user-images.githubusercontent.com/36027403/222937624-62a0ef4c-3f01-41fc-b1bb-8c788980cc6c.png)
 
 | Lang  |   10e2    |    10e3    |    10e4    |    10e5    |      10e6      |     10e7     |     10e8      |
 | :---: | :-------: | :--------: | :--------: | :--------: | :------------: | :----------: | :-----------: |
