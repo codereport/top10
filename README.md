@@ -19,6 +19,7 @@
    * Covered in [ADSP Episode 116: Max Gap Count in C++23](https://adspthepodcast.com/2023/02/10/Episode-116.html)
 8. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
    * Covered in [ADSP Episode 119: Why APL & Haskell are AWESOME with Zach Laine! (Part 3)](https://adspthepodcast.com/2023/03/03/Episode-119.html)
+   * Tweet by Tristan Brindle [covering various solutions](https://twitter.com/tristanbrindle/status/1632078445986435072?s=20)
 
 
 ### Algorithm & Combinators Required
