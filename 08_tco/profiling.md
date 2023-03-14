@@ -45,7 +45,7 @@
 |   J   |   0.145835   |   0.187187   |
 |   Q   |    .2017     |    .3282     |
 
-![image](https://user-images.githubusercontent.com/36027403/222620381-5d8470d6-932d-4df3-b5f3-d8aa636ee8d6.png)
+![image](https://user-images.githubusercontent.com/36027403/225056487-e3178e23-2104-4acf-9e1d-a85e72cc64a3.png)
 
 | Lang  |   1e5    |   1e6    |   1e7   |   1e8    |
 | :---: | :------: | :------: | :-----: | :------: |
@@ -53,3 +53,5 @@
 |  APL  | 0.000047 | 0.000407 | 0.00626 |  0.0562  |
 |   J   | 0.000195 | 0.00166  | 0.01801 | .182956  |
 |   Q   | 0.000105 |  0.0025  | 0.0316  |  0.2252  |
+
+![image](https://user-images.githubusercontent.com/36027403/225056435-95ad50ac-3022-4416-8e2e-129c4718c44b.png)
