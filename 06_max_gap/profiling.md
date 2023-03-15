@@ -47,7 +47,7 @@
 |        J        |   0.145835   |   0.187187   |
 |        Q        |    .2017     |    .3282     |
 
-![image](https://user-images.githubusercontent.com/36027403/225056487-e3178e23-2104-4acf-9e1d-a85e72cc64a3.png)
+![image](https://user-images.githubusercontent.com/36027403/225417145-395c9c55-5470-4efd-a846-95a2ccaee32d.png)
 
 | Lang  |   1e5    |   1e6    |   1e7   |   1e8    |
 | :---: | :------: | :------: | :-----: | :------: |
