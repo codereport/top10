@@ -6,6 +6,7 @@
 |  BQN  | [CBQN](https://github.com/dzaima/CBQN) built with `make o3n-singeli CC=cc REPLXX=1` |
 |   J   |                                        J9.4                                         |
 |   Q   |                     KDB+ 4.0 2022.10.26 run with `taskset -c 2`                     |
+| CUDA  |     CUDA 12.0 with `nvcc -std=c++17 -extended-lambda --expt-relaxed-constexpr`      |
 
 ### Profiling (Sort + Deltas + Max)
 
