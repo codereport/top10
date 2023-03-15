@@ -6,7 +6,7 @@
 |  BQN  | [CBQN](https://github.com/dzaima/CBQN) built with `make o3n-singeli CC=cc REPLXX=1` |
 |   J   |                                        J9.4                                         |
 |   Q   |                     KDB+ 4.0 2022.10.26 run with `taskset -c 2`                     |
-| CUDA  |     CUDA 12.0 with `nvcc -std=c++17 -extended-lambda --expt-relaxed-constexpr`      |
+| CUDA  |   CUDA 12.0 with `nvcc -std=c++17 -O3 -extended-lambda --expt-relaxed-constexpr`    |
 
 ### Profiling (Sort + Deltas + Max)
 
@@ -21,8 +21,8 @@
 
 |      Lang       |     Sort     | Sort + Deltas |     Full     | Full + Rand |
 | :-------------: | :----------: | :-----------: | :----------: | :---------: |
-| CUDA (Thrust 2) |              |               |   0.007143   |             |
-| CUDA (Thrust 1) |              |               |   0.008413   |             |
+| CUDA (Thrust 2) |              |               |   0.005481   |             |
+| CUDA (Thrust 1) |              |               |   0.008159   |             |
 |      BQN 2      | 0.1058985824 | 0.1059849112  | 0.1100821086 |      -      |
 |        J        |   0.120776   |   0.135354    |   0.139736   |  0.213386   |
 |      APL 2      |    .1437     |     .1453     |    .1515     |             |
