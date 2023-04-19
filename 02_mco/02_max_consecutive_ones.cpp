@@ -8,6 +8,14 @@ auto mco(std::vector<int> lst) {
         | transform(std::ranges::distance));
 }
 
+auto mco(std::vector<int> lst) {
+    return std::ranges::max(lst
+        | chunk_by(std::equal_to{})
+        | transform([](auto r) { 
+            return ranges::fold_left(r, 0, std::plus{}); 
+        }));
+}
+
 // Two Op Fold
 auto two_op_fold(auto rng, auto init, auto op1, auto op2) {
     auto res = init;
