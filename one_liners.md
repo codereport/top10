@@ -15,3 +15,5 @@ chunk: { (where differ x) cut x }
 |   6   |    Max Gap    |                                       `maxgap: { max 1 _ deltas asc x }`                                       |
 |   7   | Max Gap Count |                             `maxgapcount: { sum { x = max x } 1 _ deltas asc x }`                              |
 |   8   |      TCO      |                                   `tco: { 3 <= max sum each chunk x mod 2 }`                                   |
+|   9   |  Skyscraper   |                                    `skyscraper: { count distinct maxs x }`                                     |
+|  10   |   OceanView   |                              `oceanview: { where reverse differ maxs reverse x }`                              |
