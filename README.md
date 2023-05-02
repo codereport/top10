@@ -26,16 +26,18 @@
 
 ### Algorithm & Combinators Required
 
-|       |    Problem    |                                          Algorithms Required                                           |     Combinators Required      |
-| :---: | :-----------: | :----------------------------------------------------------------------------------------------------: | :---------------------------: |
-|   1   |  Rain Water   |                                        `reduce`, `map2`, `scan`                                        |        `phi`, `under`         |
-|   2   |      MCO      |                         1) `reduce`, `scan` <br> 2) `reduce`, `map`, `chunkBy`                         |      1) `phi1` <br> 2) -      |
-|   3   |     LCIS      |                 1) `reduce`, `scan`, `mapAdjacent` <br> 2) `reduce`, `map`, `chunkBy`                  |      1) `phi1` <br> 2) -      |
-|   4   |    Kadanes    |                                            `reduce`, `scan`                                            |            `phi1`             |
-|   5   |      SF2      |                               `reduce`, `mapAdjacent`, `map`, `chunkBy`                                |               -               |
-|   6   |    Max Gap    |                                    `sort`, `mapAdjacent`, `reduce`                                     |               -               |
-|   7   | Max Gap Count | 1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce` |  1) `sigma` or `s` <br> 2) -  |
-|   8   |      TCO      |           1) `slide`, `reduce`, <br> 2) `reduce`, `scan` <br> 3) `reduce`, `map`, `chunkBy`            | 1) - <br> 2) `phi1` <br> 3) - |
+|       |    Problem    |                                                  Algorithms Required                                                  |     Combinators Required      |
+| :---: | :-----------: | :-------------------------------------------------------------------------------------------------------------------: | :---------------------------: |
+|   1   |  Rain Water   |                                               `reduce`, `map2`, `scan`                                                |        `phi`, `under`         |
+|   2   |      MCO      |                                1) `reduce`, `scan` <br> 2) `reduce`, `map`, `chunkBy`                                 |      1) `phi1` <br> 2) -      |
+|   3   |     LCIS      |                         1) `reduce`, `scan`, `mapAdjacent` <br> 2) `reduce`, `map`, `chunkBy`                         |      1) `phi1` <br> 2) -      |
+|   4   |    Kadanes    |                                                   `reduce`, `scan`                                                    |            `phi1`             |
+|   5   |      SF2      |                                       `reduce`, `mapAdjacent`, `map`, `chunkBy`                                       |               -               |
+|   6   |    Max Gap    |                                            `sort`, `mapAdjacent`, `reduce`                                            |               -               |
+|   7   | Max Gap Count |        1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce`         |  1) `sigma` or `s` <br> 2) -  |
+|   8   |      TCO      |                   1) `slide`, `reduce` <br> 2) `reduce`, `scan` <br> 3) `reduce`, `map`, `chunkBy`                    | 1) - <br> 2) `phi1` <br> 3) - |
+|   9   |  Skyscraper   |                                                  1) `scan`, `unique`                                                  |               -               |
+|  10   |   OceanView   | 1) `reverse`, `scan`, `unique_mask`, `indices` <br> 2) `reverse`, `scan`, `progressive_index_count`, `map`, `indices` |           `under`?            |
 
 \* - Rank Polymorphism
 
