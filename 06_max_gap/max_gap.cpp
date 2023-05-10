@@ -2,6 +2,8 @@
 
 auto max_gap(std::vector<int> nums) {
     std::ranges::sort(nums, std::greater{});
-    return std::ranges::max(nums
-        | adjacent_transform<2>(std::minus{}));
+    return std::ranges::max(  //
+      nums                    //
+      | reverse               //
+      | adjacent_transform<2>(std::minus{}));
 }
