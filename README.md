@@ -23,7 +23,7 @@
 8. [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)
    * Covered in [ADSP Episode 119: Why APL & Haskell are AWESOME with Zach Laine! (Part 3)](https://adspthepodcast.com/2023/03/03/Episode-119.html)
    * Tweet by Tristan Brindle [covering various solutions](https://twitter.com/tristanbrindle/status/1632078445986435072?s=20)
-9. Skyscraper
+9. Skyline
     * Talked about in [Why Would a Non-Programmer Learn APL? // Richard Savenije // APL Seeds '23](https://youtu.be/6AWSPC6qQB4?t=560)
 10. [Ocean View](https://leetcode.ca/all/1762.html)
 
@@ -39,7 +39,7 @@
 |   6   |    Max Gap    |                                            `sort`, `mapAdjacent`, `reduce`                                            |               -               |
 |   7   | Max Gap Count |        1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce`         |  1) `sigma` or `s` <br> 2) -  |
 |   8   |      TCO      |                   1) `slide`, `reduce` <br> 2) `reduce`, `scan` <br> 3) `reduce`, `map`, `chunkBy`                    | 1) - <br> 2) `phi1` <br> 3) - |
-|   9   |  Skyscraper   |                                                  1) `scan`, `unique`                                                  |               -               |
+|   9   |    Skyline    |                                                  1) `scan`, `unique`                                                  |               -               |
 |  10   |   OceanView   | 1) `reverse`, `scan`, `unique_mask`, `indices` <br> 2) `reverse`, `scan`, `progressive_index_count`, `map`, `indices` |           `under`?            |
 
 \* - Rank Polymorphism
