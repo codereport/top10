@@ -19,10 +19,9 @@ namespace view = ranges::views;
 auto sushi_for_two2(std::vector<int> sushi) {
     return sushi                                                            //
            |> view::zip_with(_neq_, $, $ | view::drop(1))                   //
-           |> view::zip($, view::iota(0))                                   //
+           |> view::zip($, view::iota(1))                                   //
            |> view::filter($, [](auto t) { return std::get<0>(t); })        //
            |> view::values($)                                               //
-           |> view::transform($, _plus(1))                                  //
            |> view::concat(view::single(0), $, view::single(sushi.size()))  //
            |> view::zip_with(_sub_, $ | view::drop(1), $)                   //
            |> view::zip_with(_min_, $, $ | view::drop(1))                   //
@@ -36,10 +35,9 @@ auto deltas(auto&& rng) { return adjacent2(rng, _c(_sub_)); }
 
 auto indices(auto&& rng) {
     return rng                                                        //
-           |> view::zip($, view::iota(0))                             //
+           |> view::zip($, view::iota(1))                             //
            |> view::filter($, [](auto t) { return std::get<0>(t); })  //
            |> view::values($)                                         //
-           |> view::transform($, _plus(1))                            //
            |> view::concat(view::single(0), $);                       //
 }
 
