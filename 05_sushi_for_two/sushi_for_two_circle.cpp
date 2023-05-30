@@ -1,26 +1,23 @@
-// Godbolt: https://godbolt.org/z/qG3jPzWGb
-
-using namespace std::views;
-using namespace combinators;
-
-auto sushi_for_two(std::vector<int> sushi) {
-    return sushi                                   //
-           |> chunk_by($, std::equal_to{})         //
-           |> transform($, std::ranges::distance)  //
-           |> adjacent_transform<2>($, _min_)      //
-           |> std::ranges::max($) * 2;             //
-}
-
-// Alternate Solutions
+// Godbolt: https://godbolt.org/z/P6PxMnhMz
 
 namespace view = ranges::views;
+using namespace combinators;
+
+// Solution 1
+auto sushi_for_two(std::vector<int> sushi) {
+    return sushi                                               //
+           |> std::views::chunk_by($, _eq_)                    //
+           |> std::views::transform($, std::ranges::distance)  //
+           |> std::views::adjacent_transform<2>($, _min_)      //
+           |> std::ranges::max($) * 2;                         
+}
 
 // Solution 2
 auto sushi_for_two2(std::vector<int> sushi) {
     return sushi                                                            //
            |> view::zip_with(_neq_, $, $ | view::drop(1))                   //
            |> view::zip($, view::iota(1))                                   //
-           |> view::filter($, [](auto t) { return std::get<0>(t); })        //
+           |> view::filter($, _fst)                                         //
            |> view::values($)                                               //
            |> view::concat(view::single(0), $, view::single(sushi.size()))  //
            |> view::zip_with(_sub_, $ | view::drop(1), $)                   //
@@ -29,16 +26,16 @@ auto sushi_for_two2(std::vector<int> sushi) {
 }
 
 // Solution 3
-auto adjacent2(auto&& rng, auto op) { return rng |> view::zip_with(op, $, $ | view::drop(1)); }
-auto differ(auto&& rng) { return adjacent2(rng, _neq_); }
-auto deltas(auto&& rng) { return adjacent2(rng, _c(_sub_)); }
+auto adjacent_transform_2(auto&& rng, auto op) { return rng |> view::zip_with(op, $, $ | view::drop(1)); }
+auto differ(auto&& rng) { return adjacent_transform_2(rng, _neq_); }
+auto deltas(auto&& rng) { return adjacent_transform_2(rng, _c(_sub_)); }
 
 auto indices(auto&& rng) {
-    return rng                                                        //
-           |> view::zip($, view::iota(1))                             //
-           |> view::filter($, [](auto t) { return std::get<0>(t); })  //
-           |> view::values($)                                         //
-           |> view::concat(view::single(0), $);                       //
+    return rng                            //
+           |> view::zip($, view::iota(1)) //
+           |> view::filter($, _fst)       //
+           |> view::values($)             //
+           |> view::concat(view::single(0), $);  
 }
 
 auto sushi_for_two3(std::vector<int> sushi) {
@@ -47,6 +44,6 @@ auto sushi_for_two3(std::vector<int> sushi) {
            |> indices($)                                   //
            |> view::concat($, view::single(sushi.size()))  //
            |> deltas($)                                    //
-           |> adjacent2($, _min_)                          //
-           |> std::ranges::max($) * 2;                     //
+           |> adjacent_transform_2($, _min_)               //
+           |> std::ranges::max($) * 2;       
 }
