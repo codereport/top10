@@ -25,6 +25,8 @@
    * Tweet by Tristan Brindle [covering various solutions](https://twitter.com/tristanbrindle/status/1632078445986435072?s=20)
 9. Skyline
     * Talked about in [Why Would a Non-Programmer Learn APL? // Richard Savenije // APL Seeds '23](https://youtu.be/6AWSPC6qQB4?t=560)
+    * Coverd at xx:xx of KX Con 2023 - Algorithms in q (link coming)
+    * Covered in [Episode 135: 🇸🇮 Slovenia 🇸🇮 2023 Road Trip!](https://adspthepodcast.com/2023/06/23/Episode-135.html)
 10. [Ocean View](https://leetcode.ca/all/1762.html)
 
 ### Algorithm & Combinators Required
