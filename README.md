@@ -58,3 +58,5 @@
 |    C++    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |
 | Smalltalk |                          |    :heavy_check_mark:    |                          |                          |                          |                          |                          |                          |
 |     D     |                          |                          |                          |                          |    :heavy_check_mark:    |                          |                          |                          |
+
+![image](https://github.com/codereport/top10/assets/36027403/aeeafc6d-aa3b-48b8-b40d-34daa92b0229)
