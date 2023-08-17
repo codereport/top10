@@ -25,7 +25,7 @@
    * Tweet by Tristan Brindle [covering various solutions](https://twitter.com/tristanbrindle/status/1632078445986435072?s=20)
 9. Skyline
     * Talked about in [Why Would a Non-Programmer Learn APL? // Richard Savenije // APL Seeds '23](https://youtu.be/6AWSPC6qQB4?t=560)
-    * Coverd at xx:xx of KX Con 2023 - Algorithms in q (link coming)
+    * Coverd at 12:12 of [KX Con 2023 - Algorithms in q](https://youtu.be/7ANmsW7crIQ?t=732)
     * Covered in [Episode 135: 🇸🇮 Slovenia 🇸🇮 2023 Road Trip!](https://adspthepodcast.com/2023/06/23/Episode-135.html)
 10. [Ocean View](https://leetcode.ca/all/1762.html)
 
@@ -39,7 +39,7 @@
 |   4   |    Kadanes    |                                                   `reduce`, `scan`                                                    |            `phi1`             |
 |   5   |      SF2      |                   `reduce`, `mapAdjacent`, `map`, `chunkBy` <br> `reduce`, `mapAdjacent`, `indices`                   |               -               |
 |   6   |    Max Gap    |                                            `sort`, `mapAdjacent`, `reduce`                                            |               -               |
-|   7   | Max Gap Count |        1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce`         |  1) `sigma` or `s` <br> 2) -  |
+|   7   | Max Gap Count |        1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce` <br> 3) `sort`, `foldl`         |  1) `sigma` or `s` <br> 2) - <br> 3) - |
 |   8   |      TCO      |                   1) `slide`, `reduce` <br> 2) `reduce`, `scan` <br> 3) `reduce`, `map`, `chunkBy`                    | 1) - <br> 2) `phi1` <br> 3) - |
 |   9   |    Skyline    |                                                  1) `scan`, `unique`                                                  |               -               |
 |  10   |   OceanView   | 1) `reverse`, `scan`, `unique_mask`, `indices` <br> 2) `reverse`, `scan`, `progressive_index_count`, `map`, `indices` |           `under`?            |
