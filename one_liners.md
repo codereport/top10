@@ -17,3 +17,18 @@ chunk: { (where differ x) cut x }
 |   8   |      TCO      |                                       `tco: { 3 <= max sum each chunk x mod 2 }`                                        |
 |   9   |    Skyline    |                                          `skyline: { count distinct maxs x }`                                           |
 |  10   |   OceanView   |                                  `oceanview: { where reverse differ maxs reverse x }`                                   |
+
+## Uiua
+
+|       |    Problem    |        Solution         |
+| :---: | :-----------: | :---------------------: |
+|   1   |  Rain Water   |    `/+-∶↧⍜⇌\↥∶\↥..`     |
+|   2   |      MCO      |       `/↥\(×+,)`        |
+|   3   |     LCIS      |    `+1/↥\(×+,)≡/>◫2`    |
+|   4   |    Kadanes    |       `/↥\(↥+,)`        |
+|   5   |      SF2      | `×2/↥≡/↧◫2⊕⧻\+⊂0≡/≠◫2.` |
+|   6   |    Max Gap    |      `/↥≡/-◫2⊏⌂.`       |
+|   7   | Max Gap Count |    `/+=/↥.≡/-◫2⊏⌂.`     |
+|   8   |      TCO      |     `≥3/↥\(×+,)◿2`      |
+|   9   |    Skyline    |         `⧻⊝\↥`          |
+|  10   |   OceanView   |     `▽∶⇡⧻∶=⍜⇌\↥..`      |
