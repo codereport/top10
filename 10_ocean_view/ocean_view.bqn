@@ -1,5 +1,11 @@
+# Progressive Index of
 OceanView ← {/⌽0=⊒⌈`⌽𝕩}
 OceanView ← /0=(⊒⌈`)⌾⌽
+
+# Fork / Hook Equal Scan
+OceanView ← /⊢=⌈`⌾⌽
+OceanView ← /=⟜(⌈`⌾⌽)
+OceanView ← /⌈`⌾⌽⊸=
 
 # Tests
 OceanView 4‿2‿3‿1 # ⟨ 0 2 3 ⟩
