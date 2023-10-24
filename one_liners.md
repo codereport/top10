@@ -48,6 +48,7 @@ chunk: { (where differ x) cut x }
 |   9   |    Skyline    |         `≢∪⌈\`         |
 |  10   |   OceanView   |     `⍸⊢«=»(⌈\⍢⌽)`      |
 
-Max Gap could be `⌈/2-⍨/⊂⍤⍋⊸⌷` if Kap had `⊸` (before)
-Max Gap Count could be `+/⌈/⊸=⊢2-⍨/⊂⍤⍋⊸⌷` if Kap had `⊸` (before)
-OceanView could be `⍸⌈\⍢⌽⊸=` if Kap had `⊸` (before)
+If Kap had `⊸` (before), then:
+* Max Gap could be `⌈/2-⍨/⊂⍤⍋⊸⌷`
+* Max Gap Count could be `+/⌈/⊸=⊢2-⍨/⊂⍤⍋⊸⌷`
+* OceanView could be `⍸⌈\⍢⌽⊸=`
