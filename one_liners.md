@@ -32,3 +32,22 @@ chunk: { (where differ x) cut x }
 |   8   |      TCO      |  `≥3/↥\(×+,)◿2`   |
 |   9   |    Skyline    |      `⧻⊝\↥`       |
 |  10   |   OceanView   |  `▽∶⇡⧻∶=⍜⇌\↥..`   |
+
+# Kap
+
+|       |    Problem    |        Solution        |
+| :---: | :-----------: | :--------------------: |
+|   1   |  Rain Water   |  `+/⌈\«⌊»(⌈\⍢⌽)«-»⊢`   |
+|   2   |      MCO      |       `⌈/⊢«×»+\`       |
+|   3   |     LCIS      |    `1+⌈/⊢«×»+\2</`     |
+|   4   |    Kadanes    |       `⌈/⊢«⌈»+\`       |
+|   5   |      SF2      |    `⌈/2⌊/≢¨⊆⍨1,2≠/`    |
+|   6   |    Max Gap    |    `⌈/2-⍨/(⊂⍋)«⌷»⊢`    |
+|   7   | Max Gap Count | `+/⌈/«=»⊢2-⍨/(⊂⍋)«⌷»⊢` |
+|   8   |      TCO      |    `3≤⌈/⊢«×»+\2\|`     |
+|   9   |    Skyline    |         `≢∪⌈\`         |
+|  10   |   OceanView   |     `⍸⊢«=»(⌈\⍢⌽)`      |
+
+Max Gap could be `⌈/2-⍨/⊂⍤⍋⊸⌷` if Kap had `⊸` (before)
+Max Gap Count could be `+/⌈/⊸=⊢2-⍨/⊂⍤⍋⊸⌷` if Kap had `⊸` (before)
+OceanView could be `⍸⌈\⍢⌽⊸=` if Kap had `⊸` (before)
