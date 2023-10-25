@@ -42,7 +42,7 @@
 |   7   | Max Gap Count |                  1) `sort`, `mapAdjacent`, (RP* or `map2`, `repeat`) + `reduce` <br> 2) `sort`, `mapAdjacent`, `reduce` <br> 3) `sort`, `foldl`                  |  1) `sigma` or `s` <br> 2) - <br> 3) -  |
 |   8   |      TCO      |                                         1) `slide`, `reduce` <br> 2) `reduce`, `scan` <br> 3) `reduce`, `map`, `chunkBy`                                         |      1) - <br> 2) `phi1` <br> 3) -      |
 |   9   |    Skyline    |                                                                       1) `scan`, `unique`                                                                        |                    -                    |
-|  10   |   OceanView   | 1) `reverse`, `scan`, `unique_mask`, `indices` <br> 2) `reverse`, `scan`, `progressive_index_count`, `map`, `indices` <br> 3) `revere`, `scan`, `map`, `indices` | `under` <br> 3) `ph1` or `s` or `sigma` |
+|  10   |   OceanView   | 1) `reverse`, `scan`, `unique_mask`, `indices` <br> 2) `reverse`, `scan`, `progressive_index_count`, `map`, `indices` <br> 3) `revere`, `scan`, `map`, `indices` | `under` <br> 3) `phi` or `s` or `sigma` |
 
 \* - Rank Polymorphism
 
