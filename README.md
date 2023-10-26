@@ -48,17 +48,17 @@
 
 ### Solutions
 
-| Language  |            1             |            2             |            3             |            4             |            5             |            6             |            7             |            8             |            9             |            10            |
-| :-------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
-|    BQN    | :star::heavy_check_mark: |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    | :star::heavy_check_mark: | :star::heavy_check_mark: |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: |
-|    Kap    |    :heavy_check_mark:    | :star::heavy_check_mark: | :star::heavy_check_mark: | :star::heavy_check_mark: |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: | :star::heavy_check_mark: |    :heavy_check_mark:    |
-|   Uiua    |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    |
-|  Haskell  |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | :star::heavy_check_mark: |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |
-|    APL    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |     :no_entry_sign:      |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |
-|     J     |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |
-|  Clojure  |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |
-|    C++    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |                          |                          |                          |
-| Smalltalk |                          |    :heavy_check_mark:    |                          |                          |                          |                          |                          |                          |                          |                          |
-|     D     |                          |                          |                          |                          |    :heavy_check_mark:    |                          |                          |                          |                          |                          |
+| Language  |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |  10   |
+| :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|    Kap    |   ✔️   |  ⭐✔️   |  ⭐✔️   |  ⭐✔️   |   ✔️   |   ✔️   |   ✔️   |  ⭐✔️   |  ⭐✔️   |  ⭐✔️   |
+|    BQN    |  ⭐✔️   |   ✔️   |   ✔️   |  ⭐✔️   |   ✔️   |  ⭐✔️   |  ⭐✔️   |   ✔️   |   ✔️   |  ⭐✔️   |
+|   Uiua    |   ✔️   |  ⭐✔️   |   ✔️   |  ⭐✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |  ⭐✔️   |   ✔️   |
+|  Haskell  |   ✔️   |   ✔️   |   ✔️   |   ✔️   |  ⭐✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
+|    APL    |   ✔️   |   ✔️   |   ✔️   |   🚫   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |
+|     J     |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |       |       |
+|  Clojure  |   ✔️   |   ✔️   |       |   ✔️   |   ✔️   |   ✔️   |   ✔️   |   ✔️   |       |       |
+|    C++    |   ✔️   |   ✔️   |       |       |   ✔️   |   ✔️   |   ✔️   |       |       |       |
+| Smalltalk |       |   ✔️   |       |       |       |       |       |       |       |       |
+|     D     |       |       |       |       |   ✔️   |       |       |       |       |       |
 
 ![image](https://github.com/codereport/top10/assets/36027403/aeeafc6d-aa3b-48b8-b40d-34daa92b0229)
