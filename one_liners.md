@@ -37,7 +37,10 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 
 ## [Jello](https://github.com/codereport/jello) & [Jelly](https://github.com/DennisMitchell/jellylanguage/)
 
-|       | Problem |       Jello       | Jelly |
-| :---: | :-----: | :---------------: | :---: |
-|   6   | Max Gap | `sort deltas max` | `ṢIṀ` |
+|       | Problem |                    Jello                     |     Jelly      |
+| :---: | :-----: | :------------------------------------------: | :------------: |
+|   2   |   MCO   |        1) `split_at 0 len_each maxr`         |   1) `ṣ0ẈṀ`    |
+|   3   |  LCIS   | 1) `deltas > 0 split_at 0 len_each maxr + 1` | 1) `I>0ṣ0ẈṀ+1` |
+|   6   | Max Gap |              `sort deltas max`               |     `ṢIṀ`      |
+|   8   |   TCO   |    1) `odd split_at 0 len_each maxr > 2`     |  1) `Ḃṣ0ẈṀ>2`  |
 
