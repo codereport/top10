@@ -37,12 +37,13 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 
 ## [Jello](https://github.com/codereport/jello) & [Jelly](https://github.com/DennisMitchell/jellylanguage/)
 
-|       |    Problem    |                                  Jello                                   |            Jelly             |
-| :---: | :-----------: | :----------------------------------------------------------------------: | :--------------------------: |
-|   2   |      MCO      |                      1) `split_at 0 len_each maxr`                       |          1) `ṣ0ẈṀ`           |
-|   3   |     LCIS      |               2) `deltas > 0 split_at 0 len_each maxr + 1`               |        2) `I>0ṣ0ẈṀ+1`        |
-|   5   |      SF2      |                  `group_len min 2 slide_fold maxr * 2`                   |          `Œɠ«2\Ṁ×2`          |
-|   6   |    Max Gap    |                            `sort deltas max`                             |            `ṢIṀ`             |
-|   7   | Max Gap Count |                        `sort deltas . = maxr sum`                        |           `ṢIµ=ṀS`           |
-|   8   |      TCO      | 1) `odd split_at 0 len_each maxr > 2` <br> 3) `odd min 3 slide_fold any` | 1) `Ḃṣ0ẈṀ>2` <br> 3) `Ḃ«3\Ẹ` |
-|   9   |    Skyline    |                           `max scan uniq len`                            |            `»\QL`            |
+|       |    Problem    |                                  Jello                                   |               Jelly                |
+| :---: | :-----------: | :----------------------------------------------------------------------: | :--------------------------------: |
+|   2   |      MCO      |                      1) `split_at 0 len_each maxr`                       |             1) `ṣ0ẈṀ`              |
+|   3   |     LCIS      |               2) `deltas > 0 split_at 0 len_each maxr + 1`               |           2) `I>0ṣ0ẈṀ+1`           |
+|   5   |      SF2      |                  `group_len min 2 slide_fold maxr * 2`                   |             `Œɠ«2\Ṁ×2`             |
+|   6   |    Max Gap    |                            `sort deltas maxr`                            |               `ṢIṀ`                |
+|   7   | Max Gap Count |                        `sort deltas . = maxr sum`                        |              `ṢIµ=ṀS`              |
+|   8   |      TCO      | 1) `odd split_at 0 len_each maxr > 2` <br> 3) `odd min 3 slide_fold any` |    1) `Ḃṣ0ẈṀ>2` <br> 3) `Ḃ«3\Ẹ`    |
+|   9   |    Skyline    |                           `max scan uniq len`                            |               `»\QL`               |
+|  10   |   OceanView   |       1) 🚫 <br> 2) 🚫 <br> 3) `rev min scan rev . = maxr idx sub1`        | 1) 🚫 <br> 2) 🚫 <br>    `Ṛ«\Ṛµ=ṀT’` |
