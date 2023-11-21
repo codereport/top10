@@ -39,6 +39,7 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 
 |       |    Problem    |                                  Jello                                   |               Jelly                |
 | :---: | :-----------: | :----------------------------------------------------------------------: | :--------------------------------: |
+|   1   |  Rain Water   |                 `rev max scan rev min max scan _ . sum`                  |            `Ṛ»\Ṛ«»\_µS`            |
 |   2   |      MCO      |                      1) `split_at 0 len_each maxr`                       |             1) `ṣ0ẈṀ`              |
 |   3   |     LCIS      |               2) `deltas > 0 split_at 0 len_each maxr + 1`               |           2) `I>0ṣ0ẈṀ+1`           |
 |   5   |      SF2      |                  `group_len min 2 slide_fold maxr * 2`                   |             `Œɠ«2\Ṁ×2`             |
