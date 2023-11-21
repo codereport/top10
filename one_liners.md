@@ -43,6 +43,6 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 |   3   |     LCIS      |               2) `deltas > 0 split_at 0 len_each maxr + 1`               |        2) `I>0ṣ0ẈṀ+1`        |
 |   5   |      SF2      |                  `group_len min 2 slide_fold maxr * 2`                   |          `Œɠ«2\Ṁ×2`          |
 |   6   |    Max Gap    |                            `sort deltas max`                             |            `ṢIṀ`             |
-|   7   | Max Gap Count |                        `sort deltas . = maxr sum`                        |          `»\Qµ=ṀS`           |
+|   7   | Max Gap Count |                        `sort deltas . = maxr sum`                        |           `ṢIµ=ṀS`           |
 |   8   |      TCO      | 1) `odd split_at 0 len_each maxr > 2` <br> 3) `odd min 3 slide_fold any` | 1) `Ḃṣ0ẈṀ>2` <br> 3) `Ḃ«3\Ẹ` |
 |   9   |    Skyline    |                           `max scan uniq len`                            |            `»\QL`            |
