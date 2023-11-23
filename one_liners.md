@@ -46,6 +46,6 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 |   5   |      SF2      |                                     `group_len min 2 slide_fold maxr * 2`                                      |                    `Œɠ«2\Ṁ×2`                     |
 |   6   |    Max Gap    |                                               `sort deltas maxr`                                               |                       `ṢIṀ`                       |
 |   7   | Max Gap Count |                                           `sort deltas idx_max len`                                            |                      `ṢIML`                       |
-|   8   |      TCO      | 1) `odd split_at 0 len_each maxr > 2` <br> 2) `odd : + * r . scan maxr > 2` <br> 3) `odd min 3 slide_fold any` | 1) `Ḃṣ0ẈṀ>2` <br> 2) `Ḃð+×ṛµ\Ṁ>2` <br> 3) `Ḃ«3\Ẹ` |
+|   8   |      TCO      | 1) `odd min 3 slide_fold any` <br> 2) `odd : + * r . scan maxr > 2` <br> 3) `odd split_at 0 len_each maxr > 2` | 1) `Ḃṣ0ẈṀ>2` <br> 2) `Ḃð+×ṛµ\Ṁ>2` <br> 3) `Ḃ«3\Ẹ` |
 |   9   |    Skyline    |                                              `max scan uniq len`                                               |                      `»\QL`                       |
 |  10   |   OceanView   |                             1) 🚫 <br> 2) 🚫 <br> 3) `rev max scan rev = . idx sub1`                             |          1) 🚫 <br> 2) 🚫 <br> `Ṛ»\Ṛ=µT’`           |
