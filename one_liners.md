@@ -51,5 +51,6 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 |  10   |   OceanView   |                             1) 🚫 <br> 2) 🚫 <br> 3) `rev max scan rev = . idx sub1`                             |          1) 🚫 <br> 2) 🚫 <br> `Ṛ»\Ṛ=µT’`           |
 
 * 2.1 could be: `len part maxr`
+* 5 could be: `group_len min prior maxr * 2`
 * 3.2 could be: `< prior len part maxr add1`
-* 8.1 could: `odd len part maxr > 2`
+* 8.3 could: `odd len part maxr > 2`
