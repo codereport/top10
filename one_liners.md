@@ -48,7 +48,7 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 |   7   | Max Gap Count |                                           `sort deltas idx_max len`                                            |                      `ṢIML`                       |
 |   8   |      TCO      | 1) `odd min 3 slide_fold any` <br> 2) `odd : + * r . scan maxr > 2` <br> 3) `odd split_at 0 len_each maxr > 2` | 1) `Ḃṣ0ẈṀ>2` <br> 2) `Ḃð+×ṛµ\Ṁ>2` <br> 3) `Ḃ«3\Ẹ` |
 |   9   |    Skyline    |                                              `max scan uniq len`                                               |                      `»\QL`                       |
-|  10   |   OceanView   |                             1) 🚫 <br> 2) 🚫 <br> 3) `rev max scan rev = . idx sub1`                             |          1) 🚫 <br> 2) 🚫 <br> `Ṛ»\Ṛ=µT’`           |
+|  10   |   OceanView   |             1) `rev max scan uniq_mask rev idx` <br> 2) 🚫 <br> 3) `rev max scan rev = . idx sub1`              |      1) `Ṛ»\ŒQṚT` <br> 2) 🚫 <br> `Ṛ»\Ṛ=µT’`       |
 
 * 2.1 could be: `len part maxr`
 * 3.2 could be: `< prior len part maxr add1`
