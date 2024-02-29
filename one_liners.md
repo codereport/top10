@@ -41,7 +41,7 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 | :---: | :-----------: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
 |   1   |  Rain Water   |                                    `rev max scan rev min max scan _ . sum`                                     |                   `Ṛ»\Ṛ«»\_µS`                    |
 |   2   |      MCO      |                           1) `split_at 0 len_each maxr` <br> 2) `+ * r . scan maxr`                            |            1) `ṣ0ẈṀ` <br> 2) `+×ṛµ\Ṁ`             |
-|   3   |     LCIS      |             1) `< prior : + * r . scan maxr add1` <br> 2) `< prior split_at 0 len_each maxr add1`              |         1) `<ṕð+×ṛµ\Ṁ‘`<br> 2) `<ṕṣ0ẈṀ‘`          |
+|   3   |     LCIS      |                1) `< prior : + * r . scan maxr add1` <br> 2) `< prior part len_each maxr add1`                 |          1) `<ṕð+×ṛµ\Ṁ‘`<br> 2) `<ṕṔẈṀ‘`          |
 |   4   |    Kadanes    |                                             `+ max r . scan maxr`                                              |                     `+»ṛµ\Ṁ`                      |
 |   5   |      SF2      |                                         `group_len min prior maxr * 2`                                         |                     `Œɠ«ṕṀ×2`                     |
 |   6   |    Max Gap    |                                               `sort deltas maxr`                                               |                       `ṢIṀ`                       |
