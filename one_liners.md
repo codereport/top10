@@ -50,6 +50,7 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 |   9   |    Skyline    |                                             `max scan uniq len`                                             |                      `»\QL`                      |
 |  10   |   OceanView   |         1) `rev max scan uniq_mask rev idx sub1` <br> 2) 🚫 <br> 3) `rev max scan rev = . idx sub1`          |    1) `Ṛ»\ŒQṚT’` <br> 2) 🚫 <br> 3) `Ṛ»\Ṛ=µT’`    |
 
-* 2.1 could be: `len part maxr`
-* 3.2 could be: `< prior len part maxr add1`
-* 8.3 could: `odd len part maxr > 2`
+* 2.1 could be: `len part maxr` or `part_len maxr`
+* 3.2 could be: `< prior len part maxr add1` or `< prior part_len maxr add1`
+* 8.3 could: `odd? len part maxr > 2` or `odd? part_len maxr > 2`
+* `max scan` in 1, 9, 10.1 & 10.3 could be `maxs`
