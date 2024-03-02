@@ -37,19 +37,15 @@ In BQN, `_p ← {𝔽´˘2↕𝕩}`
 
 ## [Jello](https://github.com/codereport/jello) & [Jelly](https://github.com/DennisMitchell/jellylanguage/)
 
-|       |    Problem    |                                                    Jello                                                    |                      Jelly                       |
-| :---: | :-----------: | :---------------------------------------------------------------------------------------------------------: | :----------------------------------------------: |
-|   1   |  Rain Water   |                                       `rev maxs rev min maxs _ . sum`                                       |                    `ṚḾṚ«Ḿ_µS`                    |
-|   2   |      MCO      |                             1) `part len_each maxr` <br> 2) `+ * r . scan maxr`                             |            1) `ṔẈṀ` <br> 2) `+×ṛµ\Ṁ`             |
-|   3   |     LCIS      |               1) `< prior : + * r . scan maxr add1` <br> 2) `< prior part len_each maxr add1`               |         1) `<ṕð+×ṛµ\Ṁ‘`<br> 2) `<ṕṔẈṀ‘`          |
-|   4   |    Kadanes    |                                            `+ max r . scan maxr`                                            |                     `+»ṛµ\Ṁ`                     |
-|   5   |      SF2      |                                       `group_len min prior maxr * 2`                                        |                    `Œɠ«ṕṀ×2`                     |
-|   6   |    Max Gap    |                                             `sort deltas maxr`                                              |                      `ṢIṀ`                       |
-|   7   | Max Gap Count |                                          `sort deltas idx_max len`                                          |                      `ṢIML`                      |
-|   8   |      TCO      | 1) `odd? min 3 slide_fold any` <br> 2) `odd? : + * r . scan maxr > 2` <br> 3) `odd? part len_each maxr > 2` | 1) `Ḃ«3\Ẹ` <br> 2) `Ḃð+×ṛµ\Ṁ>2` <br> 3) `ḂṔẈṀ>2` |
-|   9   |    Skyline    |                                               `maxs uniq len`                                               |                      `ḾQL`                       |
-|  10   |   OceanView   |             1) `rev maxs uniq_mask rev idx sub1` <br> 2) 🚫 <br> 3) `rev maxs rev = . idx sub1`              |     1) `ṚḾŒQṚT’` <br> 2) 🚫 <br> 3) `ṚḾṚ=µT’`     |
-
-* 2.1 could be: `len part maxr` or `part_len maxr`
-* 3.2 could be: `< prior len part maxr add1` or `< prior part_len maxr add1`
-* 8.3 could: `odd? len part maxr > 2` or `odd? part_len maxr > 2`
+|       |    Problem    |                                                 Jello                                                  |                      Jelly                      |
+| :---: | :-----------: | :----------------------------------------------------------------------------------------------------: | :---------------------------------------------: |
+|   1   |  Rain Water   |                                    `rev maxs rev min maxs _ . sum`                                     |                   `ṚḾṚ«Ḿ_µS`                    |
+|   2   |      MCO      |                             1) `part_len maxr` <br> 2) `+ * r . scan maxr`                             |            1) `ℙṀ` <br> 2) `+×ṛµ\Ṁ`             |
+|   3   |     LCIS      |               1) `< prior : + * r . scan maxr add1` <br> 2) `< prior part_len maxr add1`               |         1) `<ṕð+×ṛµ\Ṁ‘`<br> 2) `<ṕℙṀ‘`          |
+|   4   |    Kadanes    |                                         `+ max r . scan maxr`                                          |                    `+»ṛµ\Ṁ`                     |
+|   5   |      SF2      |                                     `group_len min prior maxr * 2`                                     |                    `Œɠ«ṕṀ×2`                    |
+|   6   |    Max Gap    |                                           `sort deltas maxr`                                           |                      `ṢIṀ`                      |
+|   7   | Max Gap Count |                                       `sort deltas idx_max len`                                        |                     `ṢIML`                      |
+|   8   |      TCO      | 1) `odd? min 3 slide_fold any` <br> 2) `odd? : + * r . scan maxr > 2` <br> 3) `odd? part_len maxr > 2` | 1) `Ḃ«3\Ẹ` <br> 2) `Ḃð+×ṛµ\Ṁ>2` <br> 3) `ḂℙṀ>2` |
+|   9   |    Skyline    |                                            `maxs uniq len`                                             |                      `ḾQL`                      |
+|  10   |   OceanView   |           1) `rev maxs uniq_mask rev idx sub1` <br> 2) 🚫 <br> 3) `rev maxs rev = . idx sub1`           |    1) `ṚḾŒQṚT’` <br> 2) 🚫 <br> 3) `ṚḾṚ=µT’`     |
