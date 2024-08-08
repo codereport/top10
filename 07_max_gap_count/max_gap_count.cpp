@@ -21,7 +21,7 @@ struct max_count {
         return max_count{value, count + 1};
     }
     max_count operator+ (max_count other) {
-        return this->value > other.value ? *this  :
+        return this->value > other.value ? *this :
                this->value < other.value ? other : other.inc();
     }
 };
